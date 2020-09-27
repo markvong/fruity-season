@@ -21,7 +21,14 @@ body {
 }
 
 body::-webkit-scrollbar {
-  display: none;
+  width:5px;
+  background-color: $bg-color;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $font-color;
+  outline: 1px solid $bg-color;
+  height: 64px;
 }
 
 html {
