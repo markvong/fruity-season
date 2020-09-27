@@ -1,7 +1,8 @@
 
 $li-bg-color: #679436;
 $card-font-color: #E6EBE0;
-$select-font-color: #303036;
+$select-font-color: #050401;
+$cards-bg-color: #A37774;
 
 #container-div {
   display: flex;
@@ -34,10 +35,11 @@ $select-font-color: #303036;
   color: $card-font-color;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 90%;
+  // background-color: $cards-bg-color;
 }
 
 ul {
