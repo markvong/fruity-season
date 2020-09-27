@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./style.scss";
+import "./Container.scss";
 import { Card } from "../card/Card";
 
 export const Container = () => {
@@ -53,7 +53,13 @@ export const Container = () => {
           <label htmlFor="states" id="states-label" className="select-label">
             Select a state
           </label>
-          <select name="states" id="states" onChange={changeState}>
+
+          <select
+            name="states"
+            id="states"
+            onChange={changeState}
+            className="custom-select"
+          >
             {states.map((state, idx) => (
               <option value={state} key={idx}>
                 {state}
@@ -65,7 +71,12 @@ export const Container = () => {
           <label htmlFor="seasons" id="seasons-label" className="select-label">
             Select a season
           </label>
-          <select name="seasons" id="seasons" onChange={changeSeason}>
+          <select
+            name="seasons"
+            id="seasons"
+            onChange={changeSeason}
+            className="custom-select"
+          >
             {seasons.map((season, idx) => (
               <option value={season} key={idx}>
                 {season}

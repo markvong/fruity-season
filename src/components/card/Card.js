@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./style.scss";
+import "./Card.scss";
 
 export const Card = (props) => {
   let name = props.produce;
