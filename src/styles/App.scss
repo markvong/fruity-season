@@ -16,7 +16,12 @@ $header-bg-color: #457EAC;
 
 body {
   background-color: $bg-color;
-  // padding: 1rem;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 html {

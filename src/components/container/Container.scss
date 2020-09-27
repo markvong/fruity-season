@@ -30,6 +30,30 @@ $cards-bg-color: #A37774;
   font-weight: bold;
   margin: 0.5rem;
 }
+
+#seasons, #states {
+  background-color: transparent;
+  // padding: 0 0 0 30px;
+  color: $li-bg-color;
+  text-align: center;
+  text-align-last: center;
+  font-size: 20px;
+  height: 100%;
+  // border: 1px red solid;
+}
+
+
+#seasons, #states option {
+  background-color: #E6EBE0;
+}
+
+.select-label {
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+}
+
+
 #cards-div {
   // border: 1px red solid;
   color: $card-font-color;
@@ -57,9 +81,11 @@ li {
   margin: 1rem;
   background-color: $li-bg-color;
 }
+
 li:hover {
   opacity: 0.9;
 }
+
 @media(max-width:500px) {
   ul {
     grid-template-columns: 100%;

@@ -75,7 +75,7 @@ export const Container = () => {
             name="seasons"
             id="seasons"
             onChange={changeSeason}
-            className="custom-select"
+            className="custom-select no-scroll"
           >
             {seasons.map((season, idx) => (
               <option value={season} key={idx}>
@@ -85,8 +85,8 @@ export const Container = () => {
           </select>
         </div>
       </div>
-      <h2> {state} </h2>
-      <h3> {season} </h3>
+      {/* <h2> {state} </h2>
+      <h3> {season} </h3> */}
       <div id="cards-div">
         <ul>
           {produce.map((prod, idx) => {
