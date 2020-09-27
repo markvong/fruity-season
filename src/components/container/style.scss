@@ -1,0 +1,19 @@
+#select-container-div {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+}
+
+.select-div {
+  display:flex;
+  flex-direction: column;
+}
+
+#container-div {
+  // border: 1px red solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}

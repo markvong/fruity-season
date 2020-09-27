@@ -1,2 +1,3 @@
 # fruity-season
-Created with CodeSandbox
+
+ReactJS front end
