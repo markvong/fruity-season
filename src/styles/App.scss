@@ -20,15 +20,27 @@ body {
   scrollbar-width: none;
 }
 
+// body::-webkit-scrollbar {
+//     width: 5px;
+// }
+/* width */
 body::-webkit-scrollbar {
-  width:5px;
-  background-color: $bg-color;
+  width: 5px;
 }
 
+/* Track */
+body::-webkit-scrollbar-track {
+  background: $bg-color;
+}
+
+/* Handle */
 body::-webkit-scrollbar-thumb {
-  background-color: $font-color;
-  outline: 1px solid $bg-color;
-  height: 64px;
+  background: #3D2A29;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #875C5A;
 }
 
 html {
