@@ -47,10 +47,10 @@ export const Container = () => {
   };
 
   return (
-    <div>
+    <div id="container-div">
       <div id="select-container-div">
         <div id="select-state-div" className="select-div">
-          <label htmlFor="states" id="states-label">
+          <label htmlFor="states" id="states-label" className="select-label">
             Select a state
           </label>
           <select name="states" id="states" onChange={changeState}>
@@ -62,7 +62,7 @@ export const Container = () => {
           </select>
         </div>
         <div id="select-season-div" className="select-div">
-          <label htmlFor="seasons" id="seasons-label">
+          <label htmlFor="seasons" id="seasons-label" className="select-label">
             Select a season
           </label>
           <select name="seasons" id="seasons" onChange={changeSeason}>
@@ -74,8 +74,18 @@ export const Container = () => {
           </select>
         </div>
       </div>
-      <div id="container-div">
-        <Card state={state} season={season} produce={produce} />
+      <h2> {state} </h2>
+      <h3> {season} </h3>
+      <div id="cards-div">
+        <ul>
+          {produce.map((prod, idx) => {
+            return (
+              <li key={idx}>
+                <Card produce={prod} />
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </div>
   );
