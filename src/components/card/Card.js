@@ -1,5 +1,7 @@
 import React from "react";
 import "./Card.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSeedling } from "@fortawesome/free-solid-svg-icons";
 
 export const Card = (props) => {
   let name = props.produce;
@@ -8,7 +10,9 @@ export const Card = (props) => {
 
   return (
     <div id="card-div">
-      <h4 id="card-title">{name}</h4>
+      <h4 id="card-title">
+        <FontAwesomeIcon icon={faSeedling} className="card-icon" /> {name}
+      </h4>
       <img
         src={
           picture
