@@ -1,5 +1,6 @@
 $bg-color: #E6EBE0;
 $font-color: #679436;
+$header-bg-color: #457EAC;
 
 .App {
   font-family: verdana, sans-serif;
@@ -15,10 +16,20 @@ $font-color: #679436;
 
 body {
   background-color: $bg-color;
-  padding: 1rem;
+  // padding: 1rem;
 }
 
 html {
   height: 100%;
+}
+
+h1 {
+  // border: 1px red solid;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: $font-color;
+  color: $bg-color;
 }
 
