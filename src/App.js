@@ -6,7 +6,7 @@ import { Container } from "./components/container/Container";
 export default function App() {
   return (
     <div className="App">
-      <h1>Seasonal Fruits</h1>
+      <h1>Seasonal Crops</h1>
       <Container />
     </div>
   );
