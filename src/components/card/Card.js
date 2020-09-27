@@ -8,7 +8,7 @@ export const Card = (props) => {
 
   return (
     <div id="card-div">
-      <h4>{name}</h4>
+      <h4 id="card-title">{name}</h4>
       <img
         src={
           picture
