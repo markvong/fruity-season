@@ -1,7 +1,7 @@
 
 $li-bg-color: #679436;
 $card-font-color: #E6EBE0;
-$select-font-color: #050401;
+$select-font-color: #051824;
 $cards-bg-color: #A37774;
 
 #container-div {
@@ -29,6 +29,7 @@ $cards-bg-color: #A37774;
 .select-label {
   font-weight: bold;
   margin: 0.5rem;
+  color: $select-font-color;
 }
 
 #seasons, #states {
