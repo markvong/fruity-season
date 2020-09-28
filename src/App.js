@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div className="App">
       <header id="header">
-        <h1>
+        <h1 className="bold">
           <FontAwesomeIcon className="icon" icon={faTree} size="xs" /> Seasonal
           Crops
         </h1>
@@ -18,7 +18,7 @@ export default function App() {
       <footer id="footer">
         <p>
           <FontAwesomeIcon icon={faCopyright} id="footer-icon" size="sm" />{" "}
-          Seasonal Crops by{" "}
+          <span className="bold">Seasonal Crops</span> by{" "}
           <a
             href="https://github.com/themansbak"
             target="_blank"
