@@ -2,20 +2,7 @@ $bg-color: #E6EBE0;
 $font-color: #679436;
 $header-bg-color: #457EAC;
 
-.App {
-  font-family: verdana, sans-serif;
-  // border: 1px red solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  color: $font-color;
-  height: 100%;
-}
-// .App > * {
-//   border: 1px red solid;
-// }
-#root {
+html {
   height: 100%;
 }
 
@@ -23,41 +10,45 @@ body {
   background-color: $bg-color;
   -ms-overflow-style: none; 
   scrollbar-width: none;
+  overflow-x: hidden;
   height: 100%;
 }
 
-// body::-webkit-scrollbar {
-//     width: 5px;
-// }
-/* width */
 body::-webkit-scrollbar {
   width: 5px;
 }
 
-/* Track */
 body::-webkit-scrollbar-track {
   background: $bg-color;
 }
 
-/* Handle */
 body::-webkit-scrollbar-thumb {
   background: #3D2A29;
 }
 
-/* Handle on hover */
 body::-webkit-scrollbar-thumb:hover {
   background: #181110;
 }
 
-html {
+#root {
+  height: 100%;
+}
+
+.App {
+  font-family: verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: $font-color;
   height: 100%;
 }
 
 header {
   width: 100%;
 }
+
 h1 {
-  // border: 1px red solid;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -70,24 +61,11 @@ h1 {
   color:  #051824;
   .icon {
     color: #3D2A29;
+    margin: 0 1rem 0 0;
   }
 }
 
-.icon {
-  // border: 1px red solid;
-  margin: 0 1rem 0 0;
-}
-
-h1:hover {
-  // cursor: pointer;
-  // color: #051824;
-  // .icon {
-  //   color: #3D2A29;
-  // }
-}
-
 footer {
-  // border: 1px red solid;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -100,30 +78,24 @@ footer {
   width: 100%;
   padding: 0.3rem;
 }
+
 p {
   margin: 0;
-}
-footer:hover {
-  // cursor: pointer;
-  // color: #051824;
-  // #footer-icon {
-  //   color: #3D2A29;
-  // }
+
+  .portfolio-link  {
+    text-decoration: none;
+    color:#3D2A29;
+    font-weight: bold;
+  }
+  
+  .portfolio-link:hover {
+    text-decoration: none;
+    color:#051824;
+  }
 }
 
 .bold {
   font-weight: bold;
-}
-
-.portfolio-link  {
-  text-decoration: none;
-  color:#3D2A29;
-  font-weight: bold;
-}
-
-.portfolio-link:hover {
-  text-decoration: none;
-  color:#051824;
 }
 
 @media(max-width:500px) {
