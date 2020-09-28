@@ -17,7 +17,7 @@ export default function App() {
       <Container />
       <footer id="footer">
         <p>
-          <FontAwesomeIcon icon={faCopyright} id="footer-icon" size="md" />{" "}
+          <FontAwesomeIcon icon={faCopyright} id="footer-icon" size="sm" />{" "}
           Seasonal Crops by{" "}
           <a
             href="https://github.com/themansbak"
