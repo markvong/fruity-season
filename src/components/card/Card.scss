@@ -1,27 +1,26 @@
 
 #card-div {
-  // border: 1px red solid;
-  // width: 25%;
   text-align: center;
   word-wrap: break-word;
   margin: 0.5rem;
+
+  #card-title {
+    font-weight: bold;
+  }
+  
+  #card-img {
+    width: 80%;
+  }
+  
+  #card-description {
+    margin: 0.3rem;
+  }
+
 }
 
 
 
-#card-title {
-  font-weight: bold;
-}
 
-#card-img {
-  width: 80%;
-  // border:1px red solid;
-}
-
-#card-description {
-  // border: 1px red solid;
-  margin: 0.3rem;
-}
 
 
 
