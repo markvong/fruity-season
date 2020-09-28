@@ -6,18 +6,21 @@ $header-bg-color: #457EAC;
   font-family: verdana, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: $font-color;
   width: 100%;
   height: 100%;
-  // border: 1px yellow solid; 
+}
+#root {
+  height: 100%;
 }
 
 body {
   background-color: $bg-color;
   -ms-overflow-style: none; 
   scrollbar-width: none;
+  height: 100%;
 }
 
 // body::-webkit-scrollbar {
