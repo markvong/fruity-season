@@ -19,11 +19,21 @@ export default function App() {
         <p>
           <FontAwesomeIcon icon={faCopyright} id="footer-icon" size="md" />{" "}
           Seasonal Crops by{" "}
-          <a href="https://github.com/themansbak" className="portfolio-link">
+          <a
+            href="https://github.com/themansbak"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="portfolio-link"
+          >
             Alex Man
           </a>{" "}
           and{" "}
-          <a href="https://github.com/markvong" className="portfolio-link">
+          <a
+            href="https://github.com/markvong"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="portfolio-link"
+          >
             Mark Vong
           </a>
           .
