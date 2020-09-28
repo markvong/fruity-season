@@ -1,3 +1,5 @@
-# fruity-season
+# Seasonal Crops
 
-ReactJS front end
+Built with ReactJS.
+Styled with Sass.
+Icons from FontAwesome.
