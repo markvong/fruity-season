@@ -1,13 +1,13 @@
-$bg-color: #E6EBE0;
-$font-color: #679436;
-$header-bg-color: #457EAC;
+$primary-color: #E6EBE0;
+$secondary-color: #679436;
+$tertiary-color: #457EAC;
 
 html {
   height: 100%;
 }
 
 body {
-  background-color: $bg-color;
+  background-color: $primary-color;
   -ms-overflow-style: none; 
   scrollbar-width: none;
   overflow-x: hidden;
@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: $bg-color;
+  background: $primary-color;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb:hover {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  color: $font-color;
+  color: $secondary-color;
   height: 100%;
 }
 
@@ -58,7 +58,7 @@ h1 {
   margin: 0;
   text-align: center;
   padding: 0.5rem;
-  background-color: $font-color;
+  background-color: $secondary-color;
   color:  #051824;
   .icon {
     color: #3D2A29;
@@ -75,7 +75,7 @@ footer {
   #footer-icon {
     color: #3D2A29;
   }
-  background: $font-color;
+  background: $secondary-color;
   width: 100%;
   padding: 0.3rem;
   font-size: 100%;

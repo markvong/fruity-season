@@ -1,8 +1,8 @@
 
-$li-bg-color: #679436;
-$card-font-color: #E6EBE0;
-$select-font-color: #051824;
-$cards-bg-color: #A37774;
+$primary-color: #679436;
+$secondary-color: #E6EBE0;
+$tertiary-color: #051824;
+$quaternary-color: #A37774;
 
 #container-div {
   display: flex;
@@ -21,12 +21,12 @@ $cards-bg-color: #A37774;
   display:flex;
   flex-direction: column;
   margin: 1rem;
-  color: $select-font-color;
+  color: $tertiary-color;
 
   .select-label {
     font-weight: bold;
     margin: 0.5rem;
-    color: $select-font-color;
+    color: $tertiary-color;
     width: 100%;
     margin: 0 0 0.5rem 0;
     text-align: center;
@@ -34,13 +34,13 @@ $cards-bg-color: #A37774;
 
   #seasons, #states {
     background-color: transparent;
-    color: $li-bg-color;
+    color: $primary-color;
     text-align: center;
     text-align-last: center;
     font-size: 1.3rem;
     font-weight: bold;
     height: 100%;
-    border: 1px $li-bg-color solid;
+    border: 1px $primary-color solid;
 
     option {
       background-color: #E6EBE0;
@@ -49,7 +49,7 @@ $cards-bg-color: #A37774;
 }
 
 #cards-div {
-  color: $card-font-color;
+  color: $secondary-color;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -68,7 +68,7 @@ ul {
   li {
     border-radius: 15px;
     margin: 1rem;
-    background-color: $li-bg-color;
+    background-color: $primary-color;
   }
   
   li:hover {
