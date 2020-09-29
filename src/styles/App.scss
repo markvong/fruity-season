@@ -12,6 +12,7 @@ body {
   scrollbar-width: none;
   overflow-x: hidden;
   height: 100%;
+  margin: 0;
 }
 
 body::-webkit-scrollbar {
@@ -77,11 +78,15 @@ footer {
   background: $font-color;
   width: 100%;
   padding: 0.3rem;
+  font-size: 100%;
 }
 
 p {
   margin: 0;
+}
 
+#footer-text {
+  
   .portfolio-link  {
     text-decoration: none;
     color:#3D2A29;
@@ -94,6 +99,7 @@ p {
   }
 }
 
+
 .bold {
   font-weight: bold;
 }
@@ -101,5 +107,9 @@ p {
 @media(max-width:500px) {
   .App {
     height: auto;
+  }
+
+  #footer-text {
+    font-size: 13px;
   }
 }

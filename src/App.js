@@ -16,7 +16,7 @@ export default function App() {
       </header>
       <Container />
       <footer id="footer">
-        <p>
+        <p id="footer-text">
           <FontAwesomeIcon icon={faCopyright} id="footer-icon" size="sm" />{" "}
           <span className="bold">Seasonal Crops</span> by{" "}
           <a
